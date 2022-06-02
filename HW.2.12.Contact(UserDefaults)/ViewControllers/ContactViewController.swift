@@ -7,6 +7,10 @@
 
 import UIKit
 
+protocol NewContactViewControllerDelegate{
+    func saveContact(_ contact: Person)
+}
+
 class ContactViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!

@@ -7,10 +7,6 @@
 
 import UIKit
 
-protocol NewContactViewControllerDelegate{
-    func saveContact(_ contact: Person)
-}
-
 class NewContactViewController: UIViewController {
     
     @IBOutlet weak var doneButton: UIBarButtonItem!

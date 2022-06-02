@@ -85,8 +85,8 @@
 		4B49CD5A284622850004B52A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				4B49CD572846224C0004B52A /* NewContactViewController.swift */,
 				4B49CD4728461BA00004B52A /* ContactViewController.swift */,
+				4B49CD572846224C0004B52A /* NewContactViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
