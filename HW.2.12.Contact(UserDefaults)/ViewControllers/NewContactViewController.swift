@@ -67,4 +67,7 @@ class NewContactViewController: UIViewController {
         dismiss(animated: true)
     }
     
+    deinit {
+        print("NewContactViewController has been dealocated")
+    }
 }

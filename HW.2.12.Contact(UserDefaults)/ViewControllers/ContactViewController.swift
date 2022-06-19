@@ -26,6 +26,10 @@ class ContactViewController: UIViewController {
         let newContact = segue.destination as! NewContactViewController
         newContact.delegate = self
     }
+    
+    deinit {
+        print("ContactViewController has been dealocated")
+    }
 }
 
 // MARK: - UITAbleViewDataSource
@@ -51,7 +55,6 @@ extension ContactViewController: UITableViewDelegate {
             tableView.deleteRows(at: [indexPath], with: .automatic)
         }
     }
-    
 }
 
 // MARK: - NewContactViewControllerDelegate
